@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+hr {
+    background: #eee;
+    height: 1px;
+}
+
+.fs-small {
+    font-size: 12px;
+}
+
+.fs-sm {
+    font-size: 14px;
+}
+
+.fs-middle {
+    font-size: 16px;
+}
+
+.fs-ml {
+    font-size: 18px;
+}
+
+.fs-large {
+    font-size: 20px;
+}
+
+.icon-size {
+    font-size: 60px;
+}
+
+.color-coral {
+    color: lightcoral
+}
+
+.bg-coral {
+    background: lightcoral;
+}
+
+.color-white {
+    color: white
+}
+
+.border-left {
+    border-left: 1px solid #eee;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #eee;
+}
+
+.profile-container1 {
+    float: left;
+    width: 23%;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.profile-container2 {
+    float: left;
+    width: 48%;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+
+.profile-container3 {
+    float: left;
+    width: 25%;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+
+.margin-left {
+    margin-left: 10px;
+}
+
+.margin-right {
+    margin-right: 10px;
+}
+
+.center {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .profile-container {
+        float: none;
+    }
+
+    .profile-container1 {
+        float: none;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .profile-container2 {
+        float: none;
+        width: 100%;
+        margin-right: 0px;
+    margin-left: 1px;
+    }
+
+    .profile-container3 {
+        float: none;
+        width: 100%;
+         margin-left: 1px;
+    }
+
+    .border-left {
+        border-left: 0px solid #eee;
+    }
+}
